@@ -5,23 +5,56 @@
 </template>
 
 <style>
-html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
+/*
+  :root {
+    --light-grey: #D3D3D3;
+    --grey: #818181;
+    --dark-grey: #3e3e3e;
+    --black: #000;
+    --white: #FFF;
+  }
+*/
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
-}
+  /* Base setup */
+  :root {
+      font-size: 100%;
+  }
+
+  /* Set up a decent box model on the root element */
+  html {
+      box-sizing: border-box;
+  }
+
+  /* Make all elements from the DOM inherit from the parent box-sizing
+     Since `*` has a specificity of 0, it does not override the `html` value
+     making all elements inheriting from the root box-sizing value
+     See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  body {
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  /* Use perfect fourth modular scale */
+  .heading1 {
+    font-size: 2.369rem;
+    margin-bottom: 2rem;
+  }
+
+  .heading2 {
+    font-size: 1.777rem;
+    margin-bottom: 1rem;
+  }
+
+  .small-text {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
 
 </style>
