@@ -8,36 +8,36 @@
       <nav class="nav">
         <ul class="nav__menu">
 				  <li class="nav__item nav--home">
-            <a class="nav__link" href="/">
+            <router-link class="nav__link" to="/">
               <div class="nav__group">
                 <span class="nav__text">Home</span>
                 <span class="fas fa-home nav__icon"></span>
               </div>
-            </a>
+            </router-link>
           </li>
           <li class="nav__item nav--projects">
-            <a class="nav__link" href="#">
+            <router-link class="nav__link" to="/projects">
               <div class="nav__group">
                 <span class="nav__text">Projects</span>
                 <span class="fas fa-briefcase nav__icon"></span>
               </div>
-            </a>
+            </router-link>
           </li>
           <li class="nav__item nav--about">
-            <a class="nav__link" href="#">
+            <router-link class="nav__link" to="/about">
               <div class="nav__group">
                 <span class="nav__text">About</span>
                 <span class="fas fa-book-open nav__icon"></span>
               </div>
-            </a>
+            </router-link>
           </li>
           <li class="nav__item nav--contact">
-            <a class="nav__link" href="#">
+            <router-link class="nav__link" to="/contact">
               <div class="nav__group">
                 <span class="nav__text">Contact</span>
                 <span class="fas fa-user nav__icon"></span>
               </div>
-            </a>
+            </router-link>
           </li>
         </ul>
       </nav>
