@@ -44,11 +44,13 @@
   /* Use perfect fourth modular scale */
   .heading1 {
     font-size: 2.369rem;
+    font-weight: 700;
     margin-bottom: 2rem;
   }
 
   .heading2 {
     font-size: 1.777rem;
+    font-weight: 700;
     margin-bottom: 1rem;
   }
 

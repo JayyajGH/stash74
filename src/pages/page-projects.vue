@@ -1,7 +1,12 @@
 <template>
-  <h1>projects</h1>
-
-  <!-- use colours from rgb(65, 104, 244) -->
+  <div>
+    Add header
+    <h1 class="heading1 heading">projects</h1>
+    <p>
+      Send me a message if you need a website built.
+    </p>
+  </div>
+  </div>
 </template>
 
 <script>
@@ -11,4 +16,12 @@
 </script>
 
 <style scoped lang="scss">
+  .heading {
+    background-color: rgb(65, 104, 244);
+    color: #FFF;
+  }
+
+  .subheading {
+    color: rgb(65, 104, 244);
+  }
 </style>
