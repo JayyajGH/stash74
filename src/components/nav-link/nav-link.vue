@@ -41,7 +41,6 @@
 
   .nav--home:hover {
     background-color: rgb(65, 244, 113);
-    transition: 0.8s;
   }
 
   .nav--projects {
@@ -51,7 +50,6 @@
 
   .nav--projects:hover {
     background-color: rgb(65, 104, 244);
-    transition: 0.8s;
   }
 
   .nav--about {
@@ -61,7 +59,6 @@
 
   .nav--about:hover {
     background-color: rgb(244, 66, 69);
-    transition: 0.8s;
   }
 
   .nav--contact {
@@ -71,65 +68,15 @@
 
   .nav--contact:hover {
     background-color: rgb(244, 160,65);
-    transition: 0.8s;
   }
 
-  .fa-home {
-    transition: 0.8s;
-  }
-
-  .nav__item:hover .fa-home  {
+  .nav__item:hover .nav__icon  {
     font-size: 6em;
     transition: 0.8s;
   }
 
   @media (min-width: 800px) {
-    .nav__item:hover .fa-home  {
-      font-size: 8em;
-    }
-  }
-
-  .fa-briefcase {
-    transition: 0.8s;
-  }
-
-  .nav__item:hover .fa-briefcase {
-    font-size: 6em;
-    transition: 0.8s;
-  }
-
-  @media (min-width: 800px) {
-    .nav__item:hover .fa-briefcase  {
-        font-size: 8em;
-    }
-  }
-
-  .fa-book-open {
-    transition: 0.8s;
-  }
-
-  .nav__item:hover .fa-book-open  {
-    font-size: 6em;
-    transition: 0.8s;
-  }
-
-  @media (min-width: 800px) {
-    .nav__item:hover .fa-book-open  {
-      font-size: 8em;
-    }
-  }
-
-  .fa-user {
-    transition: 0.8s;
-  }
-
-  .nav__item:hover .fa-user  {
-    font-size: 6em;
-    transition: 0.8s;
-  }
-
-  @media (min-width: 800px) {
-    .nav__item:hover .fa-user  {
+    .nav__item:hover .nav__icon  {
       font-size: 8em;
     }
   }
@@ -140,6 +87,7 @@
       justify-content: center;
       flex-direction: column;
       text-align: center;
+      transition: 0.8s;
   }
 
   .nav__link {
@@ -165,6 +113,7 @@
 
   .nav__icon {
       font-size: 5em;
+      transition: 0.8s;
   }
 
   @media (min-width: 800px) {
