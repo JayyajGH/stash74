@@ -8,9 +8,9 @@
       <nav class="nav">
         <ul class="nav__menu">
           <nav-link name="Home" url="/" icon="fa-home" item="nav--home"></nav-link>
-          <nav-link name="Projects" url="/projects" icon="fa-briefcase" item="nav--projects"></nav-link>
-          <nav-link name="About" url="/about" icon="fa-book-open" item="nav--about"></nav-link>
-          <nav-link name="Contact" url="/contact" icon="fa-user" item="nav--contact"></nav-link>
+          <nav-link name="Projects" url="/page-projects" icon="fa-briefcase" item="nav--projects"></nav-link>
+          <nav-link name="About" url="/page-about" icon="fa-book-open" item="nav--about"></nav-link>
+          <nav-link name="Contact" url="/page-contact" icon="fa-user" item="nav--contact"></nav-link>
         </ul>
       </nav>
     </main>
