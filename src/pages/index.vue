@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper--full-height">
     <header>
-			<img src="~/assets/images/logo.svg" class="logo"/>
+			<img src="~/assets/images/logo.svg" class="logo" alt="Stash74 company logo"/>
   	</header>
 
     <main class="wrapper" id="wrapper">
