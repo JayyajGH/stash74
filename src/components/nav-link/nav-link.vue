@@ -108,6 +108,7 @@
 
   .nav__text {
       font-size: 20px;
+      font-weight: 700;
       padding-bottom: 10px;
   }
 

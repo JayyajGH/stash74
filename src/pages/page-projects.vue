@@ -1,11 +1,25 @@
 <template>
   <div>
-    Add header
-    <h1 class="heading1 heading">projects</h1>
-    <p>
-      Send me a message if you need a website built.
-    </p>
-  </div>
+    <header>
+      <nav class="site-nav">
+        <a href="/">
+          <img src="~/assets/images/logo.svg" class="logo"/>
+				</a>
+      </nav>
+  	</header>
+
+    <main>
+      <h1 class="heading1 heading">projects</h1>
+      <section class="section">
+        <h2 class="heading2 subheading">Previous projects</h2>
+      </section>
+      <section class="section">
+        <h2 class="heading2 subheading">Need a website built?</h2>
+        <p>
+          Drop me a message and we can discuss your requirements.
+        </p>
+      </section>
+    </main>
   </div>
 </template>
 
@@ -23,5 +37,20 @@
 
   .subheading {
     color: rgb(65, 104, 244);
+  }
+
+  .section {
+    border: 3px solid rgb(65, 104, 244);
+    border-radius: 3px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  @media (min-width: 800px) {
+    .section {
+      width: 800px;
+    }
   }
 </style>

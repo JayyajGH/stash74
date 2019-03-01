@@ -59,4 +59,13 @@
     margin-bottom: 0.5rem;
   }
 
+  /* Set up the vertical margin for important base block elements. Add any others as required */
+  p,
+  ul,
+  ol,
+  div,
+  section {
+      margin-bottom: 1.5rem;
+  }
+
 </style>
