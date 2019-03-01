@@ -41,7 +41,7 @@
   .section {
     border: 3px solid rgb(244, 66, 69);
     border-radius: 3px;
-    width: 100%;
+    width: auto;
     margin: 0 auto;
     padding: 2rem;
     margin-bottom: 2rem;
@@ -49,7 +49,7 @@
 
   @media (min-width: 800px) {
     .section {
-      width: 800px;
+      max-width: 800px;
     }
   }
 </style>

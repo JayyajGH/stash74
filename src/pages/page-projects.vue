@@ -46,7 +46,7 @@
   .section {
     border: 3px solid rgb(65, 104, 244);
     border-radius: 3px;
-    width: 100%;
+    width: auto;
     margin: 0 auto;
     padding: 2rem;
     margin-bottom: 2rem;
