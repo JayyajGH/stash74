@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper--full-height">
     <header>
-			<img src="~/assets/images/logo.svg" class="logo2"/>
+			<img src="~/assets/images/logo.svg" class="logo"/>
   	</header>
 
     <main class="wrapper" id="wrapper">
@@ -26,7 +26,7 @@
 </script>
 
 <style>
-  .logo2 {
+  .logo {
     height: 60px;
     position: absolute;
     transform: translateY(-50%) rotate(90deg);
@@ -35,7 +35,7 @@
   }
 
   @media (min-width: 800px) {
-    .logo2 {
+    .logo {
       left: 50%;
       transform: translateX(-50%);
       top: 0;
