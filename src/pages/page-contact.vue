@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header>
+    <header class="header">
       <nav class="site-nav">
         <a href="/">
           <img src="~/assets/images/logo.svg" class="logo"/>
@@ -59,6 +59,10 @@
 </script>
 
 <style scoped lang="scss">
+  .header {
+    margin-bottom: 1rem;
+  }
+
   .heading {
     background-color: rgb(244, 160, 65);
     color: #FFF;
