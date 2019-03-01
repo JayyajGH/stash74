@@ -70,17 +70,6 @@
     background-color: rgb(244, 160,65);
   }
 
-  .nav__item:hover .nav__icon  {
-    font-size: 6em;
-    transition: 0.8s;
-  }
-
-  @media (min-width: 800px) {
-    .nav__item:hover .nav__icon  {
-      font-size: 8em;
-    }
-  }
-
   .nav__item {
       flex: 1;
       display: flex;
@@ -122,4 +111,16 @@
       font-size: 7em;
     }
   }
+
+  .nav__item:hover .nav__icon  {
+    font-size: 6em;
+    transition: 0.8s;
+  }
+
+  @media (min-width: 800px) {
+    .nav__item:hover .nav__icon  {
+      font-size: 8em;
+    }
+  }
+  
 </style>
