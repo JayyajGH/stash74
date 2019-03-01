@@ -1,31 +1,31 @@
 <template>
   <div>
-    <header class="header">
-      <nav class="site-nav">
-        <a href="/">
-          <img src="~/assets/images/logo.svg" class="logo"/>
-				</a>
-      </nav>
-  	</header>
+    <h1 class="heading1 heading">about</h1>
 
-    <main>
-      <h1 class="heading1 heading">about</h1>
-
-      <section class="section">
-        Blah blah blah
-      </section>
-    </main>
+    <section class="section">
+      Blah blah blah
+    </section>
   </div>
 </template>
 
 <script>
   export default {
+    layout: 'default-page',
     name: 'PageAbout'
   };
 </script>
 
 <style scoped lang="scss">
-  .header {
+  /* Use perfect fourth modular scale */
+  .heading1 {
+    font-size: 2.369rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+
+  .heading2 {
+    font-size: 1.777rem;
+    font-weight: 700;
     margin-bottom: 1rem;
   }
 

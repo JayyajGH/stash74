@@ -1,10 +1,19 @@
 <template>
-  <div class="wrapper--full-height">
-    <nuxt />
+  <div>
+    <header class="header">
+      <nav class="site-nav">
+        <a href="/">
+          <img src="~/assets/images/logo.svg" class="logo"/>
+				</a>
+      </nav>
+  	</header>
+    <main>
+      <nuxt />
+    </main>
   </div>
 </template>
 
-<style>
+<style scoped lang="scss">
 /*
   :root {
     --light-grey: #D3D3D3;
@@ -41,24 +50,6 @@
     line-height: 1.5rem;
   }
 
-  /* Use perfect fourth modular scale */
-  .heading1 {
-    font-size: 2.369rem;
-    font-weight: 700;
-    margin-bottom: 2rem;
-  }
-
-  .heading2 {
-    font-size: 1.777rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-  }
-
-  .small-text {
-    font-size: 0.75rem;
-    margin-bottom: 0.5rem;
-  }
-
   /* Set up the vertical margin for important base block elements. Add any others as required */
   p,
   ul,
@@ -66,6 +57,10 @@
   div,
   section {
       margin-bottom: 1.5rem;
+  }
+
+  .header {
+    margin-bottom: 1rem;
   }
 
 </style>

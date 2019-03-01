@@ -1,65 +1,65 @@
 <template>
   <div>
-    <header class="header">
-      <nav class="site-nav">
-        <a href="/">
-          <img src="~/assets/images/logo.svg" class="logo"/>
-				</a>
-      </nav>
-  	</header>
+    <h1 class="heading1 heading">contact</h1>
 
-    <main>
-      <h1 class="heading1 heading">contact</h1>
+    <section class="section">
+      <h2 class="heading2 subheading">Contact details</h2>
+      <address>
+        <p>1 Court Close, Horfield, Bristol BS7 0XH</p>
+        <div>
+          <a href="mailto:hello@stash74.co.uk">hello@stash74.co.uk</a>
+        </div>
+        <div>
+          <a href="tel:+447973864573">0797 3864573</a>
+        </div>
+      </address>
+    </section>
 
-      <section class="section">
-        <h2 class="heading2 subheading">Contact details</h2>
-        <address>
-          <p>1 Court Close, Horfield, Bristol BS7 0XH</p>
+    <section class="section">
+      <form>
+        <fieldset>
+          <legend class="heading2 subheading">Send us a message</legend>
           <div>
-            <a href="mailto:hello@stash74.co.uk">hello@stash74.co.uk</a>
+            <label for="name">Name:</label>
+            <input id="name" type="text">
           </div>
+
           <div>
-            <a href="tel:+447973864573">0797 3864573</a>
+            <label for="email">Email:</label>
+            <input id="email" type="text">
           </div>
-        </address>
-      </section>
 
-      <section class="section">
-        <form>
-          <fieldset>
-            <legend class="heading2 subheading">Send us a message</legend>
-            <div>
-              <label for="name">Name:</label>
-              <input id="name" type="text">
-            </div>
+          <div>
+            <label for="message">Message:</label>
+            <input id="message" type="text">
+          </div>
+        </fieldset>
 
-            <div>
-              <label for="email">Email:</label>
-              <input id="email" type="text">
-            </div>
-
-            <div>
-              <label for="message">Message:</label>
-              <input id="message" type="text">
-            </div>
-          </fieldset>
-
-          <input type="submit" value="send request" />
-        </form>
-        Add reCAPTCHAv3
-      </section>
-    </main>
+        <input type="submit" value="send request" />
+      </form>
+      Add reCAPTCHAv3
+    </section>
   </div>
 </template>
 
 <script>
   export default {
+    layout: 'default-page',
     name: 'PageContact'
   };
 </script>
 
 <style scoped lang="scss">
-  .header {
+  /* Use perfect fourth modular scale */
+  .heading1 {
+    font-size: 2.369rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+
+  .heading2 {
+    font-size: 1.777rem;
+    font-weight: 700;
     margin-bottom: 1rem;
   }
 

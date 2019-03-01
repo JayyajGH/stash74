@@ -1,36 +1,36 @@
 <template>
   <div>
-    <header class="header">
-      <nav class="site-nav">
-        <a href="/">
-          <img src="~/assets/images/logo.svg" class="logo"/>
-				</a>
-      </nav>
-  	</header>
-
-    <main>
-      <h1 class="heading1 heading">projects</h1>
-      <section class="section">
-        <h2 class="heading2 subheading">Previous projects</h2>
-      </section>
-      <section class="section">
-        <h2 class="heading2 subheading">Need a website built?</h2>
-        <p>
-          Drop me a message and we can discuss your requirements.
-        </p>
-      </section>
-    </main>
+    <h1 class="heading1 heading">projects</h1>
+    <section class="section">
+      <h2 class="heading2 subheading">Previous projects</h2>
+    </section>
+    <section class="section">
+      <h2 class="heading2 subheading">Need a website built?</h2>
+      <p>
+        Drop me a message and we can discuss your requirements
+      </p>
+    </section>
   </div>
 </template>
 
 <script>
   export default {
+    layout: 'default-page',
     name: 'PageProjects'
   };
 </script>
 
 <style scoped lang="scss">
-  .header {
+  /* Use perfect fourth modular scale */
+  .heading1 {
+    font-size: 2.369rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+
+  .heading2 {
+    font-size: 1.777rem;
+    font-weight: 700;
     margin-bottom: 1rem;
   }
 
