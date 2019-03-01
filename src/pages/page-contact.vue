@@ -72,10 +72,6 @@
     color: rgb(244, 160, 65);
   }
 
-  .logo {
-    height: 40px;
-  }
-
   .section {
     border: 3px solid rgb(244, 160, 65);
     border-radius: 3px;

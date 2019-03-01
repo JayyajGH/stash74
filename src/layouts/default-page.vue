@@ -3,7 +3,7 @@
     <header class="header">
       <nav class="site-nav">
         <a href="/">
-          <img src="~/assets/images/logo.svg" class="logo"/>
+          <img src="~/assets/images/logo.svg" class="logo" alt="Stash74 company logo"/>
 				</a>
       </nav>
   	</header>
@@ -61,6 +61,10 @@
 
   .header {
     margin-bottom: 1rem;
+  }
+
+  .logo {
+    height: 40px;
   }
 
 </style>

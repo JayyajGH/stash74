@@ -25,7 +25,7 @@
   };
 </script>
 
-<style>
+<style scoped lang="scss">
   .logo {
     height: 60px;
     position: absolute;
@@ -55,11 +55,16 @@
     }
   }
 
-  html,
-  body,
   nav,
   main,
-  .wrapper--full-height,
+  .wrapper--full-height {
+    height: 100%;
+  }
+</style>
+
+<style>
+  html,
+  body,
   #__nuxt,
   #__layout {
     height: 100%;
