@@ -19,7 +19,7 @@
     "@vue/test-utils": "^1.0.0-beta.27",
     "ava": "^2.2.0",
     "browser-env": "^3.2.6",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "nodemon": "^1.19.1",
     "require-extension-hooks": "^0.3.3",
     "require-extension-hooks-babel": "^1.0.0",
